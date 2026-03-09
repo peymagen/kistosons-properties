@@ -215,6 +215,23 @@ export default function Hero() {
       {/* Google Fonts */}
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@500;700;800&display=swap');
+          @keyframes pulse {
+            0% {
+              opacity: 1;
+              transform: scale(1);
+              box-shadow: 0 0 20px rgba(220,38,38,0.4);
+            }
+            50% {
+              opacity: 0.7;
+              transform: scale(1.05);
+              box-shadow: 0 0 40px rgba(220,38,38,0.8);
+            }
+            100% {
+              opacity: 1;
+              transform: scale(1);
+              box-shadow: 0 0 20px rgba(220,38,38,0.4);
+            }
+          }
       `}</style>
     </section>
   );
