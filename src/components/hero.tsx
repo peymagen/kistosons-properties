@@ -183,33 +183,6 @@ export default function Hero() {
           ))}
         </div>
 
-        {/* Address card */}
-        <div style={{
-          maxWidth: '600px', margin: '0 auto',
-          background: 'rgba(255,255,255,0.06)',
-          backdropFilter: 'blur(10px)',
-          border: '1px solid rgba(255,255,255,0.12)',
-          borderRadius: '8px',
-          padding: '20px 28px',
-          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px',
-        }}>
-          <MapPin size={22} color="#f87171" style={{ flexShrink: 0 }} />
-          <p style={{
-            margin: 0,
-            fontFamily: "'Montserrat', sans-serif",
-            fontSize: '0.95rem',
-            fontWeight: '500',
-            color: 'rgba(255,255,255,0.85)',
-            letterSpacing: '0.02em',
-            lineHeight: 1.8,
-            textAlign: 'center',
-          }}>
-            3-N, Pocket-4, MIG Complex, Mayur Vihar-3, Delhi-96<br />
-            📞 7503979555, 9910904323<br />
-            ✉️ Kistosons@gmail.com
-          </p>
-        </div>
-
       </div>
 
       {/* Google Fonts */}
